@@ -3,7 +3,7 @@ from google.oauth2 import service_account
 
 # Прописываем адрес к файлу с данными по сервисному аккаунту и получаем credentials для доступа к данным
 credentials = service_account.Credentials.from_service_account_file(
-    'qstn-800bc-9627f0e9646c.json')
+    'qstn-xxxxx-xxxxxxxxxxxxxx.json')
 
 # Формируем запрос и получаем количество вопросов с тегом "pandas", сгруппированные по дате создания
 query = '''
